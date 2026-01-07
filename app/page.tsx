@@ -1,4 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
+import { NavigationTabs } from 'app/components/navigation-tabs'
 
 export default function Page() {
   return (
@@ -9,6 +10,8 @@ export default function Page() {
       <p className="mb-4">
         From Shanghai to Berlin and the world,
       </p>
+      
+      <NavigationTabs />
       
       <h2 className="mb-8 text-xl font-semibold tracking-tighter">
         Developer but junior
