@@ -22,12 +22,12 @@ export default function Page() {
       </h2>
       <p className="mb-4">
         {`
-          I started learning 
-          - English at 6, French at 13 (with my dear Canadian professeure Catherine Forestier), 
+          I am a native speaker of Mandarin Chinese. I started learning 
+          English at 6, French at 13 (with my dear Canadian professeure Catherine Forestier), 
           Japanese at 16 (with tons of anime and J-Drama), German at 20 (at Uni with Prof. XIE Quanbo), 
-          Lati (Unikurs Latein with Prof. LI Juan) and Sanskrit (Stenzler with Prof. WANG Pin) at 21. 
+          Latin (Unikurs Latein with Prof. LI Juan) and Sanskrit (Stenzler with Prof. WANG Pin) at 21. 
           While I only truly "learned" English (C1 or C2) and German (C1), 
-          I can indeed sometimes impress people by faking a rather authentic accents in French and Japanese, which I found quite fun.
+          I can indeed sometimes impress people by faking a rather authentic accent in French and Japanese, which I find quite fun.
         `
 
         }
