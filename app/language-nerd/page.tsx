@@ -34,19 +34,18 @@ export default function LanguageNerdPage() {
           <p>My mother tongue.</p>
           
           <div className="flex flex-col gap-4 border-l-2 border-neutral-100 dark:border-neutral-900 pl-4 py-1">
-
+            <div className="space-y-1">
+              <span className="text-[10px] font-semibold text-neutral-400 uppercase tracking-widest">Dialect & Roots</span>
+              <p className="text-sm leading-relaxed">
+                The language spoken in my hometown (the Northeastern part of China) is a dialect of Mandarin, 
+                with an accent famous for hilarious <span className="italic">"sketch comedy"</span> (小品 xiǎopǐn) at CCTV&apos;s New Year&apos;s Gala before 2011.
+              </p>
+            </div>
             <div className="space-y-1">
               <span className="text-[10px] font-semibold text-neutral-400 uppercase tracking-widest">Other Chinese</span>
               <p className="text-sm leading-relaxed">
                 Though I&apos;m able to understand ~40% of Shanghainese due to 6 years of occasional exposure, 
-                I couldn&apos;t speak it. I wish I could&apos;ve been bilingual when I was a toddler so that I could learned another Chinese.
-              </p>
-            </div>
-            <div className="space-y-1">
-              <span className="text-[10px] font-semibold text-neutral-400 uppercase tracking-widest">Dialect & Roots</span>
-              <p className="text-sm leading-relaxed">
-                The language spoken in my hometown is a dialect of Mandarin, 
-                with an accent famous for hilarious <span className="italic">"sketch comedy"</span> (小品 xiǎopǐn) at CCTV&apos;s New Year&apos;s Gala before 2011.
+                I couldn&apos;t speak it. I've always wished I could have the chance to learn another Chinese.
               </p>
             </div>
           </div>
