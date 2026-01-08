@@ -148,3 +148,12 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.sidebar-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar-scroller {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

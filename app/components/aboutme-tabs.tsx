@@ -7,7 +7,7 @@ interface Subtab {
   href: string
 }
 
-interface Tab {
+export interface Tab {
   label: string
   href: string
   color: string
@@ -15,63 +15,65 @@ interface Tab {
   subtabs: Subtab[]
 }
 
+export const ABOUT_ME_TABS: Tab[] = [
+  { 
+    label: 'Coding', 
+    href: '/about/coding',
+    color: 'from-cyan-400 to-blue-500',
+    glowColor: 'shadow-cyan-500/50',
+    subtabs: [
+      { label: 'Projects', href: '/about/coding#projects' },
+      { label: 'Languages', href: '/about/coding#languages' },
+      { label: 'Frameworks', href: '/about/coding#frameworks' },
+      { label: 'Tools', href: '/about/coding#tools' },
+    ]
+  },
+  { 
+    label: 'Polyglot', 
+    href: '/about/language-nerd',
+    color: 'from-purple-400 to-pink-500',
+    glowColor: 'shadow-purple-500/50',
+    subtabs: [
+      { label: 'Mandarin', href: '/about/language-nerd#mandarin' },
+      { label: 'English', href: '/about/language-nerd#english' },
+      { label: 'German', href: '/about/language-nerd#german' },
+      { label: 'French', href: '/about/language-nerd#french' },
+      { label: 'Japanese', href: '/about/language-nerd#japanese' },
+      { label: 'Latin', href: '/about/language-nerd#latin' },
+      { label: 'Sanskrit', href: '/about/language-nerd#sanskrit' },
+    ]
+  },
+  { 
+    label: 'Social Activity', 
+    href: '/about/social-activity',
+    color: 'from-green-400 to-emerald-500',
+    glowColor: 'shadow-green-500/50',
+    subtabs: [
+      { label: 'Kaifeng', href: '/about/social-activity#kaifeng' },
+      { label: 'Volunteering', href: '/about/social-activity#volunteering' },
+      { label: 'Animals on Campus', href: '/about/social-activity#animal-on-campus' },
+    ]
+  },
+  {
+    label: 'Life',
+    href: '/about/life',
+    color: 'from-yellow-400 to-orange-500',
+    glowColor: 'shadow-yellow-500/50',
+    subtabs: [
+      { label: 'Mental Health', href: '/about/life#mental-health' },
+      { label: 'Cooking', href: '/about/life#cooking' },
+      { label: 'Travel', href: '/about/life#travel' },
+      { label: 'Sports', href: '/about/life#sports' },
+      { label: 'Gaming', href: '/about/life#gaming' },
+      { label: 'Films', href: '/about/life#films' },
+      { label: 'TV Series', href: '/about/life#tv-series' },
+      { label: 'Ceramics', href: '/about/life#ceramics' },
+    ]
+  }
+]
+
 export function AboutMeTabs() {
-  const tabs: Tab[] = [
-    { 
-      label: 'Coding', 
-      href: '/about/coding',
-      color: 'from-cyan-400 to-blue-500',
-      glowColor: 'shadow-cyan-500/50',
-      subtabs: [
-        { label: 'Projects', href: '/about/coding#projects' },
-        { label: 'Languages', href: '/about/coding#languages' },
-        { label: 'Frameworks', href: '/about/coding#frameworks' },
-        { label: 'Tools', href: '/about/coding#tools' },
-      ]
-    },
-    { 
-      label: 'Polyglot', 
-      href: '/about/language-nerd',
-      color: 'from-purple-400 to-pink-500',
-      glowColor: 'shadow-purple-500/50',
-      subtabs: [
-        { label: 'Mandarin', href: '/about/language-nerd#mandarin' },
-        { label: 'English', href: '/about/language-nerd#english' },
-        { label: 'German', href: '/about/language-nerd#german' },
-        { label: 'French', href: '/about/language-nerd#french' },
-        { label: 'Japanese', href: '/about/language-nerd#japanese' },
-        { label: 'Latin', href: '/about/language-nerd#latin' },
-        { label: 'Sanskrit', href: '/about/language-nerd#sanskrit' },
-      ]
-    },
-    { 
-      label: 'Social Activity', 
-      href: '/about/social-activity',
-      color: 'from-green-400 to-emerald-500',
-      glowColor: 'shadow-green-500/50',
-      subtabs: [
-        { label: 'Kaifeng', href: '/about/social-activity#kaifeng' },
-        { label: 'Volunteering', href: '/about/social-activity#volunteering' },
-        { label: 'Animals on Campus', href: '/about/social-activity#animal-on-campus' },
-      ]
-    },
-    {
-      label: 'Life',
-      href: '/about/life',
-      color: 'from-yellow-400 to-orange-500',
-      glowColor: 'shadow-yellow-500/50',
-      subtabs: [
-        { label: 'Mental Health', href: '/about/life#mental-health' },
-        { label: 'Cooking', href: '/about/life#cooking' },
-        { label: 'Travel', href: '/about/life#travel' },
-        { label: 'Sports', href: '/about/life#sports' },
-        { label: 'Gaming', href: '/about/life#gaming' },
-        { label: 'Films', href: '/about/life#films' },
-        { label: 'TV Series', href: '/about/life#tv-series' },
-        { label: 'Ceramics', href: '/about/life#ceramics' },
-      ]
-    }
-  ]
+  const tabs = ABOUT_ME_TABS
 
   return (
     <div className="my-8">
