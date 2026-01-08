@@ -1,5 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
-import { NavigationTabs } from 'app/components/navigation-tabs'
+import { AboutMeTabs } from 'app/components/aboutme-tabs'
 
 export default function Page() {
   return (
@@ -11,7 +11,7 @@ export default function Page() {
         From Shanghai to Berlin and the world,
       </p>
       
-      <NavigationTabs />
+      <AboutMeTabs />
       
       <h2 className="mb-8 text-xl font-semibold tracking-tighter">
         Developer but junior

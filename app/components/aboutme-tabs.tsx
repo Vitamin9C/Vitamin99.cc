@@ -15,59 +15,60 @@ interface Tab {
   subtabs: Subtab[]
 }
 
-export function NavigationTabs() {
+export function AboutMeTabs() {
   const tabs: Tab[] = [
     { 
       label: 'Coding', 
-      href: '/coding',
+      href: '/about/coding',
       color: 'from-cyan-400 to-blue-500',
       glowColor: 'shadow-cyan-500/50',
       subtabs: [
-        { label: 'Python', href: '/coding#python' },
-        { label: 'Rust', href: '/coding#rust' },
-        { label: 'C/C++', href: '/coding#cpp' },
+        { label: 'Projects', href: '/about/coding#projects' },
+        { label: 'Languages', href: '/about/coding#languages' },
+        { label: 'Frameworks', href: '/about/coding#frameworks' },
+        { label: 'Tools', href: '/about/coding#tools' },
       ]
     },
     { 
       label: 'Polyglot', 
-      href: '/language-nerd',
+      href: '/about/language-nerd',
       color: 'from-purple-400 to-pink-500',
       glowColor: 'shadow-purple-500/50',
       subtabs: [
-        { label: 'Mandarin', href: '/language-nerd#mandarin' },
-        { label: 'English', href: '/language-nerd#english' },
-        { label: 'German', href: '/language-nerd#german' },
-        { label: 'French', href: '/language-nerd#french' },
-        { label: 'Japanese', href: '/language-nerd#japanese' },
-        { label: 'Latin', href: '/language-nerd#latin' },
-        { label: 'Sanskrit', href: '/language-nerd#sanskrit' },
+        { label: 'Mandarin', href: '/about/language-nerd#mandarin' },
+        { label: 'English', href: '/about/language-nerd#english' },
+        { label: 'German', href: '/about/language-nerd#german' },
+        { label: 'French', href: '/about/language-nerd#french' },
+        { label: 'Japanese', href: '/about/language-nerd#japanese' },
+        { label: 'Latin', href: '/about/language-nerd#latin' },
+        { label: 'Sanskrit', href: '/about/language-nerd#sanskrit' },
       ]
     },
     { 
       label: 'Social Activity', 
-      href: '/social-activity',
+      href: '/about/social-activity',
       color: 'from-green-400 to-emerald-500',
       glowColor: 'shadow-green-500/50',
       subtabs: [
-        { label: 'Kaifeng', href: '/social-activity#kaifeng' },
-        { label: 'Volunteering', href: '/social-activity#volunteering' },
-        { label: 'Animals on Campus', href: '/social-activity#animal-on-campus' },
+        { label: 'Kaifeng', href: '/about/social-activity#kaifeng' },
+        { label: 'Volunteering', href: '/about/social-activity#volunteering' },
+        { label: 'Animals on Campus', href: '/about/social-activity#animal-on-campus' },
       ]
     },
     {
       label: 'Life',
-      href: '/life',
+      href: '/about/life',
       color: 'from-yellow-400 to-orange-500',
       glowColor: 'shadow-yellow-500/50',
       subtabs: [
-        { label: 'Mental Health', href: '/life#mental-health' },
-        { label: 'Cooking', href: '/life#cooking' },
-        { label: 'Travel', href: '/life#travel' },
-        { label: 'Sports', href: '/life#sports' },
-        { label: 'Gaming', href: '/life#gaming' },
-        { label: 'Films', href: '/life#films' },
-        { label: 'TV Series', href: '/life#tv-series' },
-        { label: 'Ceramics', href: '/life#ceramics' },
+        { label: 'Mental Health', href: '/about/life#mental-health' },
+        { label: 'Cooking', href: '/about/life#cooking' },
+        { label: 'Travel', href: '/about/life#travel' },
+        { label: 'Sports', href: '/about/life#sports' },
+        { label: 'Gaming', href: '/about/life#gaming' },
+        { label: 'Films', href: '/about/life#films' },
+        { label: 'TV Series', href: '/about/life#tv-series' },
+        { label: 'Ceramics', href: '/about/life#ceramics' },
       ]
     }
   ]

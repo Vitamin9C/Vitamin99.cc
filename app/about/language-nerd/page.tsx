@@ -1,4 +1,4 @@
-import { SectionNavigation } from 'app/components/navigation-tabs'
+import { SectionNavigation } from 'app/components/aboutme-tabs'
 import { InteractiveSanskrit } from './interactive-sanskrit'
 import { TheWindingPath } from './winding-path'
 import { AnimatedLyrics } from './animated-lyrics'

@@ -7,17 +7,15 @@ const navItems = {
   '/resume': {
     name: 'Curriculum Vitae',
   },
-  '/blog': {
-    name: 'Articles',
+  '/about': {
+    name: 'About me',
   },
-  '/posts':
-  {
+  '/posts': {
     name: 'Posts',
-
   },
-  // 'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-  //   name: 'deploy',
-  // },
+  '/blog': {
+    name: 'Blogs',
+  },
 }
 
 export function Navbar() {

@@ -1,10 +1,10 @@
-import { SectionNavigation } from 'app/components/navigation-tabs'
-
+import { SectionNavigation } from 'app/components/aboutme-tabs'
 export default function CodingPage() {
   const sections = [
-    { label: 'Python', href: '#python' },
-    { label: 'Rust', href: '#rust' },
-    { label: 'C/C++', href: '#cpp' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'Languages', href: '#languages' },
+    { label: 'Frameworks', href: '#frameworks' },
+    { label: 'Tools', href: '#tools' },
   ]
 
   return (
