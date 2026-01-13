@@ -4,7 +4,7 @@ const navItems = {
   '/': {
     name: 'Home',
   },
-  '/resume': {
+  '/cv': {
     name: 'Curriculum Vitae',
   },
   '/about': {
