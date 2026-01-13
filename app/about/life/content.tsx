@@ -25,7 +25,25 @@ export function LifeContent({ hideTitle = false, hideNav = false }: { hideTitle?
       <div className="space-y-12">
         <div id="mental-health" className="scroll-mt-20">
           <h2 className="mb-4 text-xl font-semibold tracking-tighter">Mental Health</h2>
-          <p className="text-neutral-600 dark:text-neutral-400">Content coming soon...</p>
+          <p className="text-neutral-600 dark:text-neutral-400">Developed through years of China's education system and upbringing, 
+            I suffer from Obsessive Compulsive Personality Disorder (OCPD), 
+            It forged my way to one of the top 4 universities in China, 
+            but the subsequent inability to perform as well as my outstanding peers in the university stressed me out. 
+            From 2017 to 2023, I kept pushing myself by sacrificing all my leisure activities and hobbies, 
+            only to find myself lost in depression and anxiety, which further deteriorated my performance along with the impact of the pandemic and lockdown.
+             </p>
+          <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+            It was not until late 2025 that I finally found my true problem with a truly professional therapist and started to reorient my life. 
+            I began to accept that this was the detour that I had to take,  
+            and learned to balance work and leisure, in order to be healty and unleash my full potential.
+
+
+          </p>
+          <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+            Gradually, I started to rediscover my hobbies and interests,
+            and my confusion about life miraculously faded away --- I can find purpose and joy even in productivity again.
+            Although I still have a long way to go, I have learned how to cope with my OCPD and obtained a strong determination to rebuild my career and life.
+          </p>
         </div>
 
         <div id="cooking" className="scroll-mt-20">

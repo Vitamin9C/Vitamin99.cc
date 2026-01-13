@@ -8,7 +8,9 @@ export default function Page() {
         Salve, Munde!
       </h1>
       <p className="mb-4">
-        From Shanghai to Berlin and the world,
+        From Shanghai to Berlin and beyond, I'm an AI developer with a passion for 
+        crafting elegant solutions to complex problems and scenarios with state-of-the-art technology, 
+        as I continue to explore how to release my potential to the maximum by pursuing a career with purpose and curiosity.
       </p>
       
       <AboutMeTabs />
@@ -20,27 +22,7 @@ export default function Page() {
       <h2 className="mb-8 text-xl font-semibold tracking-tighter">
         Polyglot Wanna-be
       </h2>
-      <p className="mb-4">
-        {`
-          I am a native speaker of Mandarin Chinese. I started learning 
-          English at 6, French at 13 (with my dear Canadian professeure Catherine Forestier), 
-          Japanese at 16 (with tons of anime and J-Drama), German at 20 (at Uni with Prof. XIE Quanbo), 
-          Latin (Unikurs Latein with Prof. LI Juan) and Sanskrit (Stenzler with Prof. WANG Pin) at 21. 
-          While I only truly "learned" English (C1 or C2) and German (C1), 
-          I can indeed sometimes impress people by faking a rather authentic accent in French and Japanese, which I find quite fun.
-        `
 
-        }
-      </p>
-      
-
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
       <div className="my-8">
         <BlogPosts />
       </div>
