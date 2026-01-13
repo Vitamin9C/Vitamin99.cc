@@ -18,7 +18,7 @@ export function LanguageNerdContent({ hideTitle = false, hideNav = false }: { hi
     <section id="language-nerd-content">
       {!hideTitle && (
         <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-          Language Nerd
+          Polyglot (i.e. Language Nerd)
         </h1>
       )}
       

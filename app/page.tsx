@@ -14,13 +14,9 @@ export default function Page() {
       </p>
       
       <AboutMeTabs />
-      
-      <h2 className="mb-8 text-xl font-semibold tracking-tighter">
-        Developer but junior
-      </h2>
 
       <h2 className="mb-8 text-xl font-semibold tracking-tighter">
-        Polyglot Wanna-be
+        Blogs & Articles
       </h2>
 
       <div className="my-8">
