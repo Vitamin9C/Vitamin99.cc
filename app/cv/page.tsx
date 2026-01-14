@@ -63,8 +63,11 @@ export default function Page() {
             <li>
               <strong>Real-time document type suggestion:</strong> Engineered a high-throughput inference service for document classification (50+ types) using FastAPI, ModernBERT on vLLM and vector search. Achieved &gt;90% Top-3 Micro AP while maintaining &lt;3s latency under heavy load (30 concurrent requests, ~700 tokens/req).
             </li>
+            <li> 
+              <strong>Searching large document bases:</strong> Prototyped and delivered agilely multiple searching services using Streamlit and vector database on heterogeneous data sources, implementing semantic reranking and LLM scoring.
+            </li>
             <li>
-              <strong>Event-Driven AI Agent for IT Support:</strong> Architected a scalable Chain-of-Agents system using LangGraph and RabbitMQ to orchestrate Jira ticket resolution. Integrated SAP, Jira, and Confluence MCPs for context-aware reasoning, automating resolution paths, and suggestions for 100+ tickets daily.
+              <strong>Event-Driven AI Agent for IT Support:</strong> Architecting a scalable Chain-of-Agents system using LangGraph and RabbitMQ to orchestrate Jira ticket resolution. Integrated SAP, Jira, and Confluence MCPs for context-aware reasoning, automating resolution paths, and suggestions for 100+ tickets daily.
             </li>
           </ul>
         </div>

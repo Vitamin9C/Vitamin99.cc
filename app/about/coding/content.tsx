@@ -60,7 +60,18 @@ export function CodingContent({ hideTitle = false, hideNav = false }: { hideTitl
             <p>• Smart pointers for ownership, STLs for engineering practice, multi-threading, concurrency.</p>
           </div>
         </div>
-
+        <div id="c" className="mb-8 scroll-mt-24">
+          <h3 className="mb-2 text-lg font-medium tracking-tight">
+            C
+          </h3>
+          <p className="mb-3 text-neutral-800 dark:text-neutral-200">
+            CPP101: Learn pointers and memory allocation with C. I used it also for arduino programming, including:
+          </p>
+          <div className="space-y-1 text-sm text-neutral-800 dark:text-neutral-200 ml-2">
+            <p>• An arduino car, lifting a water bucket, moving to a designated location, releasing the water bucket, as fast & steady as possible.</p>
+            <p>• A glove-shaped MIDI controller, using pressure sensor to detect finger movement and connected to PC via bluetooth to play different instruments in real time.</p>
+          </div>
+        </div>
         <div id="rust" className="mb-8 scroll-mt-24">
           <h3 className="mb-2 text-lg font-medium tracking-tight">
             Rust
@@ -79,12 +90,7 @@ export function CodingContent({ hideTitle = false, hideNav = false }: { hideTitl
           <h3 className="mb-2 text-lg font-medium tracking-tight">
             Others
           </h3>
-          <h4 className="mb-2 text-lg font-medium tracking-tight">
-            C
-          </h4>
-          <p className="mb-3 text-neutral-800 dark:text-neutral-200">
-            CPP101: Learn pointers and memory management With C.
-          </p>
+
           <h4 className="mb-2 text-lg font-medium tracking-tight">
             Typescript
           </h4>

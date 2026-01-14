@@ -16,7 +16,7 @@ export function SocialActivityContent({ hideTitle = false }: { hideTitle?: boole
           SJTU Kaifeng
         </h2>
         <div className="space-y-3 text-neutral-800 dark:text-neutral-200">
-            <p className="mb-2">  I was the vice director of Kaifeng from 2018 to 2019, a student organization for feminists and queers in SJTU.  </p>
+            <p className="mb-2">  Placeholder. I was the vice director of Kaifeng from 2018 to 2019, a student organization for feminists and queers in SJTU.  </p>
         </div>
       </div>
 
