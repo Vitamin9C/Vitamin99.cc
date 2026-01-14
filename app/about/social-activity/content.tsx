@@ -8,16 +8,15 @@ export function SocialActivityContent({ hideTitle = false }: { hideTitle?: boole
       )}
       
       <p className="mb-6 text-neutral-800 dark:text-neutral-200">
-        Beyond coding and language learning, I enjoy connecting with people and participating 
-        in various social and community activities.
+        Place holder
       </p>
 
       <div className="mb-8 scroll-mt-20" id="kaifeng">
         <h2 className="mb-4 text-xl font-semibold tracking-tighter">
-          Kaifeng
+          SJTU Kaifeng
         </h2>
         <div className="space-y-3 text-neutral-800 dark:text-neutral-200">
-            <p className="mb-2">  test  </p>
+            <p className="mb-2">  I was the vice director of Kaifeng from 2018 to 2019, a student organization for feminists and queers in SJTU.  </p>
         </div>
       </div>
 
@@ -26,8 +25,8 @@ export function SocialActivityContent({ hideTitle = false }: { hideTitle?: boole
           Volunteering
         </h2>
         <p className="mb-4 text-neutral-800 dark:text-neutral-200">
-          When I&apos;m not coding or studying languages, you might find me exploring Berlin&apos;s 
-          diverse neighborhoods, trying new restaurants, or enjoying the city&apos;s rich cultural scene.
+          Placeholder.
+          I volunteered in 2019 in Shanghai Xinsheng Choir, a choir for migrant workers' children to craft advertising posters for their concerts and events.
         </p>
       </div>
 
@@ -36,8 +35,8 @@ export function SocialActivityContent({ hideTitle = false }: { hideTitle?: boole
           Animals on Campus
         </h2>
         <p className="mb-4 text-neutral-800 dark:text-neutral-200">
-          I&apos;m always interested in meeting new people and learning about different perspectives. 
-          Feel free to reach out if you want to chat about tech, languages, or anything else!
+          Placeholder.
+          I was part of SJTU喵汪 (SJTU meow-woof) from 2021 to 2022, a student organization to conduct TNVR (trap, neuter, vaccinate, release/adoption) and help sick/injured stray cats & dogs on campus.
         </p>
       </div>
     </section>
